@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A letter For My Princess</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope" id="envelope">
+            <!-- Envelope body -->
+            <div class="envelope-body">
+                <div class="envelope-front">
+                    <div class="envelope-flap" id="envelopeFlap">
+                        <div class="flap-top"></div>
+                        <div class="flap-bottom"></div>
+                    </div>
+                    <div class="envelope-front-cover">
+                        <div class="heart-stamp" id="heartStamp">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            </svg>
+                        </div>
+                        <div class="letter-text">
+                            <p>My Letter</p>
+                            <p class="subtitle">For You</p>
+                        </div>
+                        <div class="decorative-lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Letter inside -->
+                <div class="letter" id="letter">
+                    <div class="letter-header">
+                        <span class="letter-date" id="letterDate"></span>
+                    </div>
+                    <div class="letter-content">
+                        <p>My Dearest,</p>
+                        <p>
+                            In a world full of chaos and uncertainty, you are my constant. 
+                            Your smile brightens my darkest days, and your presence fills my heart 
+                            with a warmth I never knew existed.
+                        </p>
+                        <p>
+                            Every moment with you feels like a beautiful dream. The way you laugh, 
+                            the way you care, the way you simply exist—it all makes me fall in love 
+                            with you more deeply with each passing day.
+                        </p>
+                        <p>
+                            Thank you for being the most amazing person in my life. 
+                            You inspire me to be better, to dream bigger, and to love deeper.
+                        </p>
+                        <p>
+                            Yours Truly,
+                            -Cedy💝
+                            <br><br>
+                            <span class="signature">With All My Love ❤️</span>
+                        </p>
+                    </div>
+                    <div class="letter-footer">
+                        <div class="heart-seal"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Floating hearts -->
+            <div class="hearts-container" id="heartsContainer"></div>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <button class="btn btn-open" id="openBtn">Open Letter</button>
+            <button class="btn btn-close" id="closeBtn" style="display: none;">Close Letter</button>
+            <button class="btn btn-particles" id="particlesBtn">Shower Hearts</button>
+            <button class="btn btn-reset" id="resetBtn">Reset</button>
+        </div>
+
+        <!-- Info text -->
+        <div class="info">
+            <p>💝 Click the envelope or use the buttons to interact 💝</p>
+        </div>
+    </div>
+
+    <script src="javaa.js"></script>
+</body>
+</html>
